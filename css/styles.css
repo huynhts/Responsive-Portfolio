@@ -30,6 +30,8 @@
     background-color: #233656;
     border-radius: 5px;
     padding: 2px 15px;
+    animation-name: shapeshifter;
+    animation-duration: 10s;
 }
 
 body {
@@ -43,6 +45,13 @@ section {
     height: auto;
 }
 
+@keyframes shapeshifter {
+    0%   {background-color: #d8e1f0ed;}
+    25%  {background-color: #708dbe;}
+    50%  {background-color: #233656;}
+    100% {background-color: #095ff5;}
+  }
+
 h1 {
     padding: 25px;   
     border-radius: 3px;
@@ -53,6 +62,8 @@ h1 {
     position: relative;
     bottom: 15px;
     font-family: 'Open Sans Condensed', sans-serif;
+    animation-name: shapeshifter;
+    animation-duration: 10s;
 } 
 
  h2 {
